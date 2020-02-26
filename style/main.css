@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	max-width: 1440px;
+	margin: 0 auto;
+	background: #B8B8B8;
+	font-family: 'Didact Gothic' ;
+	font-size: 20px;
+	font-weight: normal;
+	color: #787A7B;
+}
+
+header{
+	position: relative;
+	background: white;
+}
+
+.content-header{
+	width: 100%;
+	height: 72px;
+	position: relative;
+	display: inline-flex;
+	justify-content: flex-start;
+}
+
+.logo img{
+	width: 136px;
+	height: 43px;
+}
+.logo{
+	padding-left: 99px;
+	margin-right: 62px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#search-address{
+	width: 828px;
+	
+}
+#search-address p{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#search-address p img{
+	margin-left: 17px;
+	margin-right: 12px;
+}
+#search-address p input{
+	width: 221px;
+	border: none;
+}
+#login p{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#login p label{
+	margin-left: 51px;
+	margin-right: 14px;
+}
+#login p img{
+	margin-right: 159px;
+}
+
